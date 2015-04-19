@@ -15,6 +15,7 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     // insert code here...
     //cout << "Karafses\n";
+<<<<<<< Updated upstream
 
     int A, B, n;
     cin >> A >> B >> n;
@@ -22,6 +23,15 @@ int main(int argc, const char * argv[]) {
     vector<int> s;
     int l, t, m;
 
+=======
+    
+    int A, B, n;
+    cin >> A >> B >> n;
+    
+    vector<int> s;
+    int l, t, m;
+    
+>>>>>>> Stashed changes
     string puts;
     //char puts[ 1000 ];
     while( n-- > 0 )    {
@@ -41,7 +51,11 @@ int main(int argc, const char * argv[]) {
             }
             passes++;
         }
+<<<<<<< Updated upstream
 
+=======
+        
+>>>>>>> Stashed changes
         
         string cat = to_string( c )+"\n";
         puts.append( cat );
